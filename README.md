@@ -1,9 +1,9 @@
-# Personal Site
+# Venture Graph
 
 ## Misc
 
 ### Run LiveReload
-1. `cd` into the project directory (`devon.zuegel.us/`)
+1. `cd` into the project directory (`venture-graph/`)
 2. Execute `$ docpad run`, and visit `http://localhost:9778/` to view the live-reloading site.
 
 ## Q&A
