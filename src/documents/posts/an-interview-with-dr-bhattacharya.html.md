@@ -1,0 +1,75 @@
+---
+title: An Interview with Dr. Bhattacharya
+orig_url: '//stanfordreview.org/article/an-interview-with-dr-bhattacharya/'
+author: 'Devon Zuegel'
+tags: ['healthcare', 'obamacare', 'aca']
+collection: posts
+date: 'December 6 2013'
+img: '//iis-db.stanford.edu/news/3405/3405-small_jay_square..jpg'
+---
+
+![](//stanfordreview.org/wp-content/uploads/battacharya.png)
+
+*Jay Bhattacharya is an associate professor of Medicine at Stanford and, by courtesy, of Economics. He has been studying the healthcare market for 20 years. He received a BA in economics, an MD and a PhD from Stanford University, where he has taught since 2001.*
+
+### What is the basic structure of the Affordable Care Act (ACA)?
+
+The big context is that there are about 15 to 16 million uninsured people in the US. People view it as a problem, because there’s a lot of financial risk associated with being uninsured, so the ACA aims to expand insurance coverage in two ways. The first is that all people under 138% of the federal poverty line now immediately qualify for Medicaid, while before there were other tests that had to be met. The Congressional Budget Office has said that it’ll cover about 13 million people. The second biggest mechanism is probably these insurance exchanges, which are essentially marketplaces where insurance companies can offer health insurance plans that are regulated by the government.
+
+On top of that basic structure, the ACA puts in place a number of other regulations, the employer and individual mandates being probably the two most well-known. The employer mandate requires all businesses with more than 50 employees to provide health insurance for them. If they don’t, they have to pay a penalty, $2-3 thousand per employee. The individual mandate says that if you don’t have insurance through Medicaid, through your employer, or some other source, then you’re required to buy insurance. If you don’t, they there will be a penalty. I guess the Supreme Court calls it a tax. It amounts to about $700 or 2.5% of your income, whichever is more, per year. So those are the basic coverage provisions of the ACA.
+
+The ACA requires insurance companies to accept all clients, including those with pre-existing conditions. Some experts have voiced concerns about eliminating risk from an inherently-risk based market. What are your thoughts on this subject?
+
+There are also a bunch of provisions that change what qualifies as an insurance product. Among these include things like you have to provide certain kinds of care. There’s an entity called the US Preventative Services Task Force that says if the evidence supports that such-and-such a service is efficacious, then every insurer has to cover it with zero copayment. So for instance, that means that if somebody comes to you, the insurer, and they say, “Hey, I’ve got diabetes, I’ve got heart disease, I’ve got hyper-tension,” you aren’t allowed to say, “No, I won’t insure you.”
+
+The way the insurance companies work is that they look at the predicted health costs of a given risk pool and set their premiums based on that. The ACA provisions make it so that it's more expensive to cover this pool, because you have to cover more services and riskier people; in turn, the premiums end up being higher. There's no such thing as a free lunch. You have to pay for these provisions somehow.
+
+### The legislation only allows discrimination based on "age, premium rating area, family composition, and tobacco use." What are the consequences of prohibiting price discrimination based on gender, race, and so on, and having to offer the same premiums to people of the same age group and geographic location?
+
+I don't think you're constitutionally permitted to price based on race, even though minorities on average tend to have higher health costs. Also, politically, they didn't want to allow different prices based on gender, even though women tend to have higher health costs than men. Instead, all these groups are pooled together.
+
+This makes insurance look like a better deal for those people who would typically have relatively high health costs. But what that means is that it'll be much more difficult to get the people with low health costs to sign up, because insurance will look like a bad deal for those people. This is a problem called "adverse selection", and people are very worried about it in the insurance market, because of these community rating provisions that we've been talking about. At least I'm really worried about it.
+
+Even the pricing based on age is greatly restricted. The ACA has defined that the largest ratio for the premiums an insurance company can charge for the oldest and youngest people on their plan is 3:1, while in general it’s usually on the order of 6:1 or 7:1. This is simply because a teenager or college-aged student is on average much less expensive to insure than somebody in their late 60s or 70s. There are all sorts of other restrictions that fall under this umbrella called "community rating laws", which make it so that people get charged the same premium for health insurance no matter what their risk.
+
+Now this ﻿sounds﻿ good, but it actually has some important negative economic consequences. The first is that -- with a 3:1 ratio -- insurers aren't going to charge the young an actuarially fair price. Instead, what they'll charge is a much higher price than the young would normally have to pay for health insurance in order to finance the 3:1 ratio. This is one of the main economic problems caused by the ACA: it makes insurance products on the exchange dependent on recruiting lots of young healthy people, or else the premiums on the market will be extremely high. But in order to recruit these young people, you basically have to threaten them. You have to say, “We're going to charge you this penalty if you don't sign up”.
+
+Also, if you're a “low-income” young person (I'll tell you what that means in a minute), then you qualify for a subsidy from the federal government to buy insurance on the exchanges. Again, the idea is to induce young people to sign up. So you got the penalty and these subsidies as ways to “incentivize” them to join the exchanges.
+
+So what does “low income” mean? The subsidy scheme goes from 133% (where Medicare ends) to 400% of the poverty line—that’s well into the middle class. For instance, for someone with a family of 5, you can make up to $110 thousand a year and still qualify for money from the federal government to buy insurance on the exchanges. If you're a single person, then you can make up to $45 thousand per year. That's a lot of money for a young person to make.
+
+### So how do you expect this to play out?
+
+If you're relatively poor, the exchange subsidies by the federal government are very generous, so a lot of those low-income people will sign up. But if you're above say 350% of poverty line, you're relatively healthy and relatively young, it's actually better for you on average to just pay the penalty. That means that the premiums on the exchange will be much higher than the old individual market, which didn't have so many of these community rating provisions.
+
+### The individual mandate is one of the most controversial parts of the Affordable Care Act on both political and economic levels. What are your thoughts on this part of the legislation?
+
+The first thing to note is that the individual mandate is absolutely necessary if you have a community rating law. [It’s] an attempt to address the adverse selection problem by essentially forcing people for whom insurance would otherwise be a bad deal to join in. There's no need for an individual mandate when there's no adverse selection.
+
+This certainly is a controversial feature, largely because it gives the law this sense of "the government knows better than you do what's good for you, so they're going to force you to do it". A lot of people don't like that. However, as an economist, I think the results will reflect the financial position that people are in. People will do what's financially good for them. I think the key thing to look at is: who's going to benefit and who's going to lose?
+
+### Are those people who wouldn’t be buying health insurance if it weren’t for the individual mandate the “losers”?
+
+Well those aren't the only losers, though they certainly are losers. Another group are those people who have existing insurance on the individual market—many of them have been receiving cancellation letters, because their insurance plans don’t meet the requirements of the ACA. So because they don't meet those, the ACA considers them as "bad insurance". The people who had that insurance, though, considered it good insurance! They were paying for the things they wanted, not the things the government--in particular the ACA--thinks they ought to have.
+
+### The Affordable Care Act is complex, and it can be intimidating to try to make sense of how it will impact the typical American. Do you see this complexity as a potential weakness of the legislation?
+
+It's a very difficult system. It's something like one-sixth of the US economy, with different actors with different points of view-- doctors, hospitals, insurers, individuals, employers. Basically every facet of domestic life is touched by this legislation. So if you're going to do this sort of legislation, I don't see how you could do it without a complex set of regulations. The question is "Is it wise to do it this way?" or "Are there other, simpler ways to do it?"
+
+The administration has often oversimplified and, in some places, directly misled the American public about what the likely effects of this legislation are. The most famous example is President Obama's promise that “if you like your insurance then you can keep it.” It was clear from the very beginning, based on the structure of the law, that that wasn't going to be true.
+
+A big ticket item is that the employer mandate was due to go into effect in January 2014, but the administration delayed it a year. And there are a couple of reasons I think they did that, though none of these are the official reasons they gave. The ACA defines "affordable" as the value of 9.5% or less of your income. So if you make $100k, an affordable plan would be $9500. For a young person with that income, that would actually be a very, very expensive health plan. For me, with a family of 5, a $9500 plan would be a very cheap plan. On average, families pay about $17k per year for insurance, while to cover a single person costs about $5 thousand per year.
+
+Now, any company with more than 50 full-time employees has to offer them affordable insurance. The technical problem is that...suppose you have a worker who comes to the insurance exchange and says "Look, I only make 200% of the poverty line, and my employer isn't offering me insurance coverage” -- the federal government is then supposed to give that worker a whole bunch of money so they can go buy insurance on the exchange, but at least in principle they ought to check with the employer to make sure the employer actually doesn't offer that guy a plan. And it's technically a very difficult problem, because currently there's no reporting by employers. The ACA requires reporting, but it's been difficult to get that system going in a centralized way.
+
+But there's also a second, very important economic reason that has gone too unnoticed. If the employer gives you an "affordable" health plan, then you don't qualify for the subsidies, even if you're low income on the exchange. The way they define affordability is based on a price of health insurance for a single person. Imagine you have a family of 4 or 5, and your employer offers you a plan for a single person that's $5 thousand—well under 9.5% your income—they also give you an option to cover your entire family for $16 thousand. Well that's ﻿not﻿ "affordable", since it's more than 9.5% of your income. What that means is that if you get insurance coverage for yourself but not your family, you can get that relatively cheaply from your employer. But then your family's not covered. However, when they go to the exchange to get insurance, they don’t qualify for federal subsidies, because technically you’re all covered by your employer. This creates all kinds of strange incentives. For instance, if the husband and wife got a divorce, the family then qualifies for exchange subsidies, even if they don't change any behavior other than they get divorced.
+
+But the more common thing that's likely to happen is that a lot of employers will just drop coverage and pay the penalty, and it'll actually be better for the workers, too, especially if they are low-income. If their employer drops insurance, they can then raise wages, and the workers will still qualify for federal subsidies on the exchange. It's a win-win for workers and employers. I've done a published calculation (content.healthaffairs.org/content/32/9/1531.abstract) where I found that for 37 million employees who currently get insurance, it's financially beneficial for their employer to drop coverage for them. It's also financially beneficial for the worker. But there's no such thing as a free lunch-- we say that it's good for the employers, it's good for the employees, but it’s bad for taxpayers. The estimates of the costs of the law are way lower than what they ultimately will be, because they don't sufficiently account for the economic benefit to workers and employers of dropping coverage, especially for employees.
+
+### What are the economic effects of requiring insurance packages to include certain provisions and coverage, for example birth control?
+
+In general, it raises the premiums-- the more things that are covered, the more that you have to charge to be able to pay the costs. If you're not paying it in the copay, then you're paying it in the premium. Nothing is free.
+
+The ACA requires insurers to extend dependent coverage to adult children up to 26 years old. Do you think this is going to have a net positive effect to those children or over time it'll cause the premiums to rise?
+
+Before, it was only kids under 21 who were covered as dependents under most family insurance plans. What it's done is it's raised the premiums for insurance for parents who have kids from 21 and 26. It's parents continuing to pay for the kids’ insurance. Again, it's not ﻿free﻿ coverage. So that's one effect-- it's raised the premiums for parents. The second thing is that it deprives the individual market of young, healthy people who could potentially pool with the sicker people. A 23-year-old who's covered by their parents has no incentive to go buy insurance in the exchange market. They don't have to pay a penalty, because they're already covered. What that means is that there's one fewer young, healthy person to pool with the older, sicker people on the exchange, making the adverse selection problem that we talked about earlier worse.

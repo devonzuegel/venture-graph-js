@@ -1,0 +1,72 @@
+include ../documents/views/includes/head
+
+body#wrapper
+  //if lt IE 7
+    p.browsehappy
+      |You are using an 
+      strong
+        |outdated browser
+      |. Please 
+      a(href="http://browsehappy.com/")
+        |upgrade your browser
+      |to improve your experience.
+
+  #nav-spacer
+  nav.navbar.navbar-default.navbar-fixed-top.custom(role='navigation')
+    .container-fluid
+
+      //- Brand and toggle get grouped for better mobile display 
+      .navbar-header
+        button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1')
+          //- span.sr-only Toggle navigation
+          span: i.fa.fa-bars
+        a.navbar-brand(href='../../') Venture Graph
+
+      //- Collect the nav links, forms, and other content for toggling 
+      #bs-example-navbar-collapse-1.collapse.navbar-collapse
+        ul.nav.navbar-nav
+          each p in getCollection('pages').toJSON()
+            li(class=(document.url === p.url) ? 'active' : null)
+              a(href=p.url)
+                | #{p.title}
+
+  #content
+    .col-md-9
+      #main-content!= content
+      br
+
+    .col-md-3: #side-bar
+
+      .row.contact
+        .circle
+          img(src='../assets/hackers_of_sv-thumb.jpg')
+        .contact-info
+          each c in resume.contact.social
+            h4 #{c.title}
+            a(href=c.url) #{c.address}
+
+      .row.headlines
+        h5 Featured
+        ul: each p in getCollection('posts').toJSON()
+          if (p.highlight)
+            .headline: a(href=p.url).title #{p.title}
+
+      //- .row
+
+      //-   //- Oakland & Onyx
+      //-   img(src='//scontent-2.2914.fna.fbcdn.net/hphotos-xap1/v/t1.0-9/561792_10151004496933443_1310086053_n.jpg?oh=39ecfda673342c6d179f7bea0e27e8e5&oe=54C408F2')
+
+      //-   //- With Dad at Big Kahuna
+      //-   img(src='//scontent-2.2914.fna.fbcdn.net/hphotos-xfa1/t31.0-8/10608683_10152371135483443_1241311706794917289_o.jpg')
+
+      //-   //- Lake Lopez March Triathlon Series 2013
+      //-   img(src='//scontent-2.2914.fna.fbcdn.net/hphotos-xpa1/v/t1.0-9/5592_10151356519633443_643856965_n.jpg?oh=b3e2f06c607d34ff929f9676dac17118&oe=54C23B17')
+        
+      //-   //- Pie ranch
+      //-   img(src='https://scontent-2.2914.fna.fbcdn.net/hphotos-xpa1/v/t1.0-9/1544982_10203633710345232_1526605301374113992_n.jpg?oh=dac3222ccecc9a91119ca2f6a9476a6f&oe=556BC567')
+      
+  #footer.col-lg-12
+    h4 Last modified on #{getLastModifiedDate()}
+
+
+  != getBlock('scripts').add(site.scripts, {defer:false}).toHTML()

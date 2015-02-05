@@ -1,0 +1,11 @@
+---
+layout: default
+---
+
+article#post.post
+  h1 #{document.title}
+  a(href=document.orig_url).light by #{document.author}
+  .time #{moment(document.date).format('LL')}
+  .space
+  .space
+  .post-content!= content

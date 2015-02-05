@@ -1,0 +1,381 @@
+@import url('http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700');
+
+@import url('http://fonts.googleapis.com/css?family=Roboto:900,700,300italic,300');
+@font-face {
+  font-family: 'DINComp';
+  src: url('../fonts/DINWeb.woff') format('woff');
+}
+@font-face {
+  font-family: 'Sentinel Light';
+  src: url('../fonts/Sentinel-Light.woff') format('woff');
+}
+@font-face {
+  font-family: 'Sentinel';
+  src: url('../fonts/Sentinel-Medium.woff') format('woff');
+}
+@font-face {
+  font-family: 'Sentinel Italic';
+  src: url('../fonts/Sentinel-SemiboldItalic.woff') format('woff');
+}
+@font-face {
+  font-family: 'Sentinel BookItalic';
+  src: url('../fonts/Sentinel-BookItalic.woff') format('woff');
+}
+@font-face {
+  font-family: 'Sentinel Semibold';
+  src: url('../fonts/Sentinel-Semibold.woff') format('woff');
+}
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('../fonts/ProximaNova-Light.woff') format('woff');
+}
+/* -------------------------
+ * COLORS */
+/* -------------------------
+ * WIDTHS */
+/* -------------------------
+ * PADDINGS */
+/* -----------
+ * HEADINGS */
+h2,
+h3,
+h4,
+h5,
+.time {
+  font-family: 'Proxima Nova', sans-serif;
+}
+h1 {
+  font-size: 2.7em !important;
+  margin: 0 !important;
+  font-family: 'Sentinel Semibold';
+}
+h2 {
+  color: #367da2;
+  font-size: 1.2em;
+  border-bottom: 1px solid #367da2;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+h3 {
+  font-family: 'Sentinel';
+  font-size: 1.3em !important;
+  margin: 15px 0 0 0 !important;
+}
+h3 a {
+  font-family: 'Sentinel BookItalic';
+}
+h4 {
+  text-transform: uppercase;
+  margin-bottom: 1px !important;
+  margin-top: 20px !important;
+  font-weight: 600;
+  color: #ccc !important;
+}
+h5 {
+  font-family: 'Sentinel Italic';
+  font-size: 1.6em !important;
+  margin: .6em 0 0 0 !important;
+}
+.time {
+  color: #aaa;
+  font-weight: 100;
+  font-size: 10pt;
+  text-transform: uppercase;
+  float: left;
+  margin: 2px 0 0 0;
+}
+.light {
+  float: left;
+  font-weight: 'thin' !important;
+  font-size: 16px;
+  margin-right: 16px;
+}
+/* -----------
+ * BODY & PARAGRAPHS */
+body {
+  font: 17px 'Sentinel Light', sans-serif;
+}
+body b,
+body strong {
+  font: 17px 'Sentinel Semibold', sans-serif;
+}
+body i {
+  font: 17px 'Sentinel Italic', sans-serif;
+}
+a {
+  color: #367da2;
+  padding-bottom: 1px;
+}
+a:hover {
+  color: #295f7c;
+}
+.justify {
+  text-align: justify !important;
+}
+ul {
+  padding-left: 18px !important;
+  margin: 5px 0 !important;
+}
+ul li.no_bullet {
+  list-style: none;
+  margin: 0 0 5px -18px !important;
+  font-family: 'Proxima Nova', sans-serif;
+  text-transform: uppercase;
+  color: #555;
+}
+ul li.no_bullet span.level {
+  background: #ccc;
+  color: white;
+  font-size: 81%;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  padding: 2px 5px;
+  margin: -10px 0 0 10px;
+  display: inline-block;
+}
+.smaller {
+  font-size: 90%;
+  font-weight: 100;
+}
+.headline {
+  display: inline-block;
+  margin: 0 0 10px 0;
+  width: 100%;
+}
+.headline .title {
+  padding-left: 25px;
+  width: 75% !important;
+}
+.headline .title h3 a {
+  font-family: 'Sentinel';
+}
+p b {
+  font-family: 'Sentinel';
+}
+pre {
+  padding: 0px;
+}
+.highlight {
+  background: none;
+  border: none;
+}
+.hljs {
+  border-radius: 4px;
+}
+/* -----------
+ * NAVIGATION */
+nav {
+  font-family: 'Proxima Nova', sans-serif;
+  text-transform: uppercase;
+}
+nav .navbar-brand {
+  color: #92bce0 !important;
+  border-top: 10px solid transparent;
+  font-size: 2em;
+  font-family: 'Proxima Nova';
+  font-weight: 600;
+}
+nav .navbar-brand:hover {
+  color: #5ca3c9 !important;
+}
+.navbar {
+  background: white;
+  border: none;
+}
+.navbar .navbar-toggle {
+  border: none;
+  background: none !important;
+}
+.navbar .navbar-toggle:hover {
+  border: none;
+  background-color: none !important;
+  color: #666;
+}
+.navbar .navbar-default .navbar-toggle:hover,
+.navbar .navbar-default .navbar-toggle:focus,
+.navbar .navbar-default .navbar-toggle .icon-bar {
+  background-color: none !important;
+}
+.navbar .container-fluid {
+  max-width: 950px;
+  padding: 0 10px 5px 10px;
+  border-bottom: 1px solid #e7e7e7;
+}
+#nav-spacer {
+  height: 50px;
+}
+@media (min-width: 768px) {
+  .navbar-default .navbar-nav .active > a {
+    color: #666;
+    border-top: 5px solid #92bce0;
+  }
+  .navbar-default .navbar-nav .active > a:hover {
+    color: black;
+    border-top: 5px solid #5ca3c9;
+  }
+  .navbar-default .navbar-nav li > a {
+    padding: 15px 4px 5px 4px;
+    margin-left: 20px;
+    background: none !important;
+    border-top: 5px solid transparent;
+    color: #ccc;
+  }
+  .navbar-default .navbar-nav li > a:hover {
+    color: black;
+    border-top: 5px solid #367da2;
+  }
+}
+@media (max-width: 768px) {
+  .navbar-default .navbar-nav .active > a {
+    background: #f5f9fc;
+    color: #666;
+  }
+  .navbar-default .navbar-nav .active > a:hover {
+    color: black;
+    background: #e1edf7;
+  }
+  .navbar-default .navbar-nav li > a {
+    padding: 5px 5px 5px 10px;
+    margin: 5px 0px;
+    background: none;
+    color: #ccc;
+  }
+  .navbar-default .navbar-nav li > a:hover {
+    background: #e1edf7;
+    color: black;
+  }
+}
+a.anchor {
+  display: block;
+  position: relative;
+  top: -50px;
+  visibility: hidden;
+}
+.jumbotron p {
+  margin: 0px;
+}
+body {
+  overflow-y: scroll;
+  font: Helvetica 14px;
+  font-weight: 200;
+}
+img {
+  max-width: 100%;
+  border: 1px solid #eee !important;
+}
+.circle {
+  height: 150px;
+  width: 150px;
+  border: 1px solid #eee;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  border-radius: 150px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  overflow: hidden;
+  padding: 0 !important;
+  margin: auto !important;
+}
+.circle img {
+  max-width: none;
+  border: none !important;
+  max-height: 150px;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.circle.small {
+  height: 75px;
+  width: 75px;
+}
+.circle.small img {
+  max-height: 75px;
+}
+#content {
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px 30px;
+}
+#content #main-content {
+  padding-bottom: 25px;
+}
+@media (min-width: 992px) {
+  #content #main-content {
+    padding-right: 25px;
+  }
+}
+#content #side-bar {
+  padding: 25px 0 25px 40px;
+  margin: auto !important;
+}
+#content #side-bar ul {
+  padding: 0 !important;
+}
+#content #side-bar .contact {
+  display: block;
+  width: 100%;
+}
+#content #side-bar .headlines {
+  display: block;
+  width: 100%;
+  border-top: 1px solid #eee;
+}
+#content #side-bar .headlines .headline {
+  margin: 10px 0;
+}
+#content #side-bar .headlines .headline .title {
+  font-family: 'Sentinel';
+  font-size: 16px;
+  width: 100% !important;
+  padding: 0 !important;
+}
+@media (min-width: 992px) {
+  #content #side-bar {
+    border-left: 1px solid #eee;
+  }
+  #content #side-bar .circle {
+    margin: -10px auto 25px auto !important;
+  }
+  #content #side-bar .contact-info {
+    margin: auto;
+  }
+}
+@media (max-width: 992px) {
+  #content #side-bar {
+    margin-top: 30px;
+  }
+  #content #side-bar .circle {
+    float: left;
+    margin: 25px 25px 0 0 !important;
+  }
+  #content #side-bar .contact-info {
+    float: left;
+  }
+}
+.space {
+  display: block;
+  height: 20px;
+}
+.alignright {
+  float: right;
+}
+#wrapper {
+  min-height: 100%;
+  position: relative;
+}
+#wrapper #footer {
+  margin-top: 15px;
+  padding: 5px;
+  width: 100%;
+  border-top: 1px solid #eee;
+}
+#wrapper #footer h4 {
+  margin: 0 !important;
+  text-align: center;
+  font-size: 70%;
+  font-weight: 100;
+}

@@ -1,0 +1,123 @@
+
+
+/* -----------
+ * NAVIGATION */
+
+nav {
+	font-family: 'Proxima Nova', sans-serif;
+	text-transform: uppercase;
+	
+	.navbar-brand {
+		color: @blue-light !important;
+		border-top: 10px solid transparent;
+		font-size: 2em;
+		font-family: 'Proxima Nova';
+		font-weight: 600;
+
+		&:hover {
+			color: lighten(@blue-dark, 15%) !important;
+		}
+	}
+
+}
+
+.navbar {
+	background: white;
+	border: none;
+
+	.navbar-toggle {
+		border: none;
+		background: none !important;
+
+		&:hover {
+			border: none;
+			background-color: none !important;
+			color: #666;
+		}
+
+	}
+
+	.navbar-default .navbar-toggle:hover, 
+	.navbar-default .navbar-toggle:focus,
+	.navbar-default .navbar-toggle .icon-bar {
+		background-color: none !important;
+	}
+
+	.container-fluid {
+		max-width: @width-1 - 50px;
+		padding: 0 10px 5px 10px;
+		border-bottom: 1px solid #e7e7e7;
+	}
+	
+}
+
+// compensates for sticky nav's height
+#nav-spacer {	
+	height: 50px; 
+}
+
+.navbar-default .navbar-nav {
+
+	@media(min-width: 768px) {
+		.active > a {
+			color: #666;
+			border-top: 5px solid @blue-light;
+			// text-shadow: 0 0 0.04em lighten(black, 85%);
+
+			&:hover {
+				color: black;
+				border-top: 5px solid lighten(@blue-dark, 15%);
+			}
+
+		}
+
+		li > a {
+			padding: 15px 4px 5px 4px;
+			margin-left: 20px;
+			background: none !important;
+			border-top: 5px solid transparent;
+			color: #ccc;
+
+			&:hover {
+				color: black;
+				border-top: 5px solid @blue-dark;
+			}
+		}
+
+	}
+
+	@media(max-width: 768px) {
+
+		.active > a {
+			background: lighten(@blue-light, 25%);
+			color: #666;
+
+			&:hover {
+				color: black;
+				background: lighten(@blue-light, 20%);
+			}
+		}
+
+		li > a {
+			padding: 5px 5px 5px 10px;
+			margin: 5px 0px;
+			background: none;
+			color: #ccc;
+
+			&:hover {
+				background: lighten(@blue-light, 20%);
+				color: black;
+			}
+		}
+
+	}
+
+}
+
+// Offsetts html anchors to adjust for fixed header
+a.anchor {
+  display: block; 
+  position: relative; 
+  top: -50px; 
+  visibility: hidden;
+}

@@ -1,0 +1,22 @@
+---
+title: 'Writing'
+tags: ['intro','page', 'posts']
+collection: pages
+---
+
+h1 #{document.title}
+.space
+
+.row
+
+	each p in getCollection('posts').toJSON()
+		.headline
+			if p.img
+				.circle.small.pull-left
+					a(href=p.url): img(src=p.img)
+				.title.pull-left
+					h3: a(href=p.url) #{p.title}
+					.time #{moment(p.date).format('LL')}
+			else
+				h3: a(href=p.url) #{p.title}
+				.time #{moment(p.date).format('LL')}

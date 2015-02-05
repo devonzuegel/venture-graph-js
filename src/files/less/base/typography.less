@@ -1,0 +1,139 @@
+/* -----------
+ * HEADINGS */
+
+h2, h3, h4, h5, .time {
+	font-family: 'Proxima Nova', sans-serif;
+}
+
+h1 {
+	font-size: 2.7em !important;
+	margin: 0 !important;
+	font-family: 'Sentinel Semibold';
+}
+
+h2 {
+	color: @blue-dark;
+	font-size: 1.2em;
+	border-bottom: 1px solid @blue-dark;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+h3 {
+	font-family: 'Sentinel';
+	font-size: 1.3em !important;
+	margin: 15px 0 0 0 !important;
+
+	a {
+		font-family: 'Sentinel BookItalic';
+	}
+}
+
+h4 {
+	text-transform: uppercase;
+	margin-bottom: 1px !important;
+	margin-top: 20px !important;
+	font-weight: 600;
+	color: #ccc !important;
+}
+
+h5 {
+	font-family: 'Sentinel Italic';
+	font-size: 1.6em !important;
+	margin: .6em 0 0 0 !important;
+}
+
+.time {
+	color: #aaa;
+	font-weight: 100;
+	font-size: 10pt;
+	text-transform: uppercase;
+	float: left;
+	margin: 2px 0 0 0;
+}
+
+.light {
+	float: left;
+	font-weight: 'thin' !important;
+	font-size: 16px;
+	margin-right: 16px;
+}
+
+/* -----------
+ * BODY & PARAGRAPHS */
+ 
+body {
+	font: 17px 'Sentinel Light', sans-serif;
+
+	b, strong {
+		font: 17px 'Sentinel Semibold', sans-serif;
+	}
+
+	i {
+		font: 17px 'Sentinel Italic', sans-serif;
+	}
+}
+
+a {
+	color: @blue;
+	padding-bottom: 1px;
+
+	&:hover {
+		color: darken(@blue, 10%);
+	}
+}
+
+.justify {
+	text-align: justify !important;
+}
+
+ul {
+	padding-left: 18px !important;
+	margin: 5px 0 !important;
+
+	li.no_bullet {
+		list-style: none;
+		margin: 0 0 5px -18px !important;
+
+		font-family: 'Proxima Nova', sans-serif;
+		text-transform: uppercase;
+		color: #555;
+
+		span.level {
+			background: #ccc;
+			color: white;
+			font-size: 81%;
+			.border-radius(5px);
+
+			padding: 2px 5px;
+			margin: -10px 0 0 10px;
+			display: inline-block;;
+		}
+	}
+}
+
+.smaller {
+	font-size: 90%;
+	font-weight: 100;
+}
+
+.headline {
+	display: inline-block;
+	margin: 0 0 10px 0;
+	width: 100%;
+
+	.title {
+		padding-left: 25px;
+		width: 75% !important;
+
+		h3 a {
+			font-family: 'Sentinel';
+		}
+	}
+}
+
+p {
+	b {
+		font-family: 'Sentinel';
+	}
+}

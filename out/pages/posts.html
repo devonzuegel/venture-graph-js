@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>
+<html lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7"></html>
+<![endif]-->
+<!--[if IE 7]>
+<html lang="en" class="no-js lt-ie9 lt-ie8"></html>
+<![endif]-->
+<!--[if IE 8]>
+<html lang="en" class="no-js lt-ie9"></html>
+<![endif]-->
+<!--[if gt IE 8]>
+<html lang="en" class="no-js"></html>
+<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Writing | Devon Zuegel</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--Place favicon.ico and apple-touch-icon.png in the root directory--><meta name="generator" content="DocPad v6.53.4" /><style >html.wait {
+	cursor: wait !important;
+	opacity: 0;
+	transition: opacity 0.5s ease;
+}</style><link  rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.css" /><link  rel="stylesheet" href="../css/style.css" /><link  rel="stylesheet" href="../css/vendor/normalize.css" /><link  rel="stylesheet" href="../css/vendor/highlightjs/zenburn.css" /><link  rel="stylesheet" href="../css/vendor/main.css" /><link  rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css" />
+  <script src="../js/vendor/modernizr-2.6.2.min.js"></script>
+</head>
+<body id="wrapper">
+  <!--[if lt IE 7]>
+  <p class="browsehappy">You are using an <strong>outdated browser</strong>. Please <a href="http://browsehappy.com/">upgrade your browser</a>to improve your experience.</p>
+  <![endif]-->
+  <div id="nav-spacer"></div>
+  <nav role="navigation" class="navbar navbar-default navbar-fixed-top custom">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" class="navbar-toggle collapsed"><span><i class="fa fa-bars"></i></span>
+        </button><a href="../../" class="navbar-brand">Venture Graph</a>
+      </div>
+      <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="/pages/projects.html">About</a></li>
+          <li><a href="/pages/resume.html">Resume</a></li>
+          <li class="active"><a href="/pages/posts.html">Writing</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div id="content">
+    <div class="col-md-9">
+      <div id="main-content">
+<article id="page" class="page">
+  <div class="page-content">
+<h1>Writing</h1>
+<div class="space"></div>
+<div class="row">
+  <div class="headline">
+    <div class="circle small pull-left"><a href="/posts/batch-installing-fonts-in-multiple-subfolders.html"><img src="http://i.stack.imgur.com/o76m6.png"/></a></div>
+    <div class="title pull-left">
+      <h3><a href="/posts/batch-installing-fonts-in-multiple-subfolders.html">Batch installing fonts in multiple subdirectories</a></h3>
+      <div class="time">February 2 2015</div>
+    </div>
+  </div>
+  <div class="headline">
+    <div class="circle small pull-left"><a href="/posts/an-interview-with-dr-bhattacharya.html"><img src="//iis-db.stanford.edu/news/3405/3405-small_jay_square..jpg"/></a></div>
+    <div class="title pull-left">
+      <h3><a href="/posts/an-interview-with-dr-bhattacharya.html">An Interview with Dr. Bhattacharya</a></h3>
+      <div class="time">December 6 2013</div>
+    </div>
+  </div>
+</div></div>
+</article></div><br>
+    </div>
+    <div class="col-md-3">
+      <div id="side-bar">
+        <div class="row contact">
+          <div class="circle"><img src="../assets/hackers_of_sv-thumb.jpg"></div>
+          <div class="contact-info">
+            <h4>Github</h4><a href="//github.com/devonzuegel">github.com/devonzuegel</a>
+            <h4>Twitter</h4><a href="//twitter.com/devonzuegel">@devonzuegel</a>
+            <h4>Email</h4><a href="mailto:devonz@cs.stanford.edu">devonz@cs.stanford.edu</a>
+            <h4></h4><a></a>
+          </div>
+        </div>
+        <div class="row headlines">
+          <h5>Featured</h5>
+          <ul>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="footer" class="col-lg-12">
+    <h4>Last modified on Saturday, September 20, 2014 5:11 PM</h4>
+  </div><script >(function(){
+	/* Did we just livereload? */
+var log = !!(localStorage && console && console.log && true);
+if ( log && localStorage.getItem('/docpad-livereload/reloaded') === 'yes' ) {
+	localStorage.removeItem('/docpad-livereload/reloaded');
+	console.log('LiveReload completed at', new Date())
+}
+
+/* Listen for the regenerated event and perform a reload of the page when the event occurs */
+var listen = function(){
+	var primus = new Primus('/docpad-livereload');
+	primus.on('data', function(data){
+		if ( data && data.message ) {
+			if ( data.message === 'generateBefore' ) {
+				if ( log ) {
+					console.log('LiveReload started at', new Date());
+				}
+				if ( typeof document.getElementsByTagName !== 'undefined' ) {
+	document.getElementsByTagName('html')[0].className += ' wait';
+}
+			}
+			else if ( data.message === 'generateAfter' ) {
+				if ( log ) {
+					localStorage.setItem('/docpad-livereload/reloaded', 'yes');
+				}
+				document.location.reload();
+			}
+		}
+	});
+};
+	/* Inject socket into our page */
+var inject = function(){
+	var t = document.createElement('script');
+	t.type = 'text/javascript';
+	t.async = 'async';
+	t.src = '/primus/primus.js';
+	t.onload = listen;
+	var s = document.getElementsByTagName('script')[0];
+	s.parentNode.insertBefore(t, s);
+};
+	if ( typeof Primus !== 'undefined' ) {
+		listen();
+	} else {
+		inject();
+	}
+})();</script><script  src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script><script  src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.3/moment.js"></script><script  src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</body>
