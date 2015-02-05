@@ -295,6 +295,9 @@ img {
 .circle.small img {
   max-height: 75px;
 }
+#graph {
+  margin: -50px -40px;
+}
 #content {
   max-width: 1000px;
   margin: auto;

@@ -13,7 +13,7 @@ body#wrapper
 
   #nav-spacer
   nav.navbar.navbar-default.navbar-fixed-top.custom(role='navigation')
-    .container-fluid
+    .container-fluid#nav
 
       //- Brand and toggle get grouped for better mobile display 
       .navbar-header
@@ -29,13 +29,14 @@ body#wrapper
             li(class=(document.url === p.url) ? 'active' : null)
               a(href=p.url)
                 | #{p.title}
+          li: a(href='http://www.devon.zuegel.us') Back
 
   #content
-    .col-md-9
+    .col-md-12
       #main-content!= content
       br
 
-    .col-md-3: #side-bar
+    //- .col-md-3: #side-bar
 
       .row.contact
         .circle
