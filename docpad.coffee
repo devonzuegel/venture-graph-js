@@ -57,6 +57,8 @@ docpadConfig = {
 				'//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js'
 				'//cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.3/moment.js'
 				'//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js'
+				'https://cdnjs.cloudflare.com/ajax/libs/cytoscape/2.3.8/cytoscape.js'
+				'../js/cytoscape.js'
 				# '../js/plugins.js'
 				# '../js/main.js'
 			]
